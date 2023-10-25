@@ -669,27 +669,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 
 @media(max-width:991px){
@@ -712,7 +691,6 @@ section{
     #menu-btn{
         display: inline-block;
     }
-
     .header{
         
         .navbar{
@@ -747,7 +725,7 @@ section{
             }
         }
     }
-}
+} 
 
 @media(max-width:450px){
 
