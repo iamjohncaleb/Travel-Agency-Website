@@ -26,16 +26,15 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #29d9d5;
 }
-
 section {
   padding: 3rem 9%;
 }
-
 body {
   background: #111;
   overflow-x: hidden;
 }
 
+/* heading section goes here */
 .heading {
   text-align: center;
   margin-bottom: 2rem;
@@ -48,7 +47,6 @@ body {
   font-size: 4rem;
   color: #fff;
 }
-
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -64,7 +62,6 @@ body {
   background: #29d9d5;
   color: #111;
 }
-
 .header {
   position: fixed;
   top: 0;
@@ -90,6 +87,7 @@ body {
   margin-top: 0;
 }
 
+/* logo section goes here */
 .logo {
   font-size: 2.5rem;
   color: #fff;
@@ -99,7 +97,6 @@ body {
   color: #29d9d5;
   padding-right: 0.5rem;
 }
-
 #menu-btn {
   font-size: 2.5rem;
   color: #fff;
@@ -107,6 +104,7 @@ body {
   display: none;
 }
 
+/* home section goes here */
 .home {
   margin: 0 auto;
   margin-top: 9rem;
@@ -144,6 +142,7 @@ body {
   line-height: 2;
 }
 
+/* book form goes here */
 .book-form {
   width: 80%;
   margin: 1rem auto;
@@ -181,6 +180,7 @@ body {
   flex: 1 1 15rem;
 }
 
+/* about section goes here */
 .about {
   display: flex;
   align-items: center;
@@ -231,6 +231,7 @@ body {
   line-height: 2;
 }
 
+/* destination section goes here */
 .destination .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -280,6 +281,7 @@ body {
   padding-right: 0.5rem;
 }
 
+/* service session goes here */
 .services .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
@@ -311,6 +313,7 @@ body {
   line-height: 2;
 }
 
+/* gallery session goes here */
 .gallery .box-container {
   -moz-columns: 3 25rem;
        columns: 3 25rem;
@@ -337,6 +340,7 @@ body {
   color: #fff;
 }
 
+/* review section goes here */
 .review {
   display: flex;
   align-items: center;
@@ -401,6 +405,7 @@ body {
   font-size: 1.5rem;
 }
 
+/* blogs section goes here */
 .blogs .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
@@ -459,6 +464,7 @@ body {
   color: #29d9d5;
 }
 
+/* banner section goes here */
 .banner {
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpg) no-repeat;
   background-size: cover;
@@ -485,6 +491,7 @@ body {
   line-height: 2;
 }
 
+/* footer section goes here */
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
