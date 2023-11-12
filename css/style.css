@@ -11,6 +11,7 @@
   transition: all 0.2s linear;
 }
 
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -18,13 +19,16 @@ html {
   scroll-padding-top: 9rem;
 }
 
+
 html::-webkit-scrollbar {
   width: 1rem;
 }
 
+
 html::-webkit-scrollbar-track {
   background: #111;
 }
+
 
 html::-webkit-scrollbar-thumb {
   background: #29d9d5;
